@@ -1,3 +1,80 @@
 h1 {
   color: rgb(170, 40, 40);
 }
+
+h2 {
+  color: aqua;
+}
+
+h3 {
+  color: blueviolet;
+}
+
+
+#img-blur{
+  filter: blur(8px);
+}
+
+.li-gamelist{
+  color: crimson; 
+ 
+  font-weight: bold;
+}
+
+.li-gamelist2{
+  color: darkgreen;
+ 
+  font-weight: bold;
+  font-style: italic;
+  font-family: cursive; 
+}
+
+body {
+  padding-top: 10px;
+  background: #f5f7f8;
+}
+
+.grid-1 {
+  width:100%;
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid-template-rows: auto 300px auto;
+}
+
+/* items */
+
+.grid-1 div {
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  }
+
+/* specific item styles */
+
+.item-1 {
+  background: #b03532;
+}
+.item-2 {
+  background: #33a8a5;
+}
+.item-3 {
+  background: #30997a;
+}
+.item-4 {
+  background: #6a478f;
+}
+.item-5 {
+  background: #da6f2b;
+}
+.item-6 {
+  background: #3d8bb1;
+}
+.item-7 {
+  background: #e03f3f;
+}
+.item-8 {
+  background: #59a627;
+}
+.item-9 {
+  background: #4464a1;
+}
