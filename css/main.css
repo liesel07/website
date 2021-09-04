@@ -30,20 +30,20 @@ h3 {
 }
 
 body {
-  padding-top: 10px;
   background: #f5f7f8;
 }
 
-.grid-1 {
-  width:100%;
+.basic-grid {
+  width: 100%;
+  height: 100vh;
   display: grid;
-  grid-template-columns: 150px 150px 150px;
-  grid-template-rows: auto 300px auto;
+  grid-template-columns: 150px auto 150px;
+  grid-template-rows: 250px auto 150px;
 }
 
 /* items */
 
-.grid-1 div {
+.basic-grid div {
   color: white;
   font-size: 20px;
   padding: 20px;
